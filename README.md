@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/codinci/product-card-component)
-- Live Site URL: [Add live site URL here](https://codinci.github.io/product-card-component/)
+- Solution URL: [Github](https://github.com/codinci/product-card-component)
+- Live Site URL: [Github Page](https://codinci.github.io/product-card-component/)
 
 ## My process
 
@@ -48,21 +48,37 @@ Users should be able to:
 The following are some of the things I learnt designing this project
 <ul>
   <li>Use of flexbox design</li>
+
   ```css
-    .container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   ```
   <li>A div filling up its parent's width</li>
-   ```css
-     .card-image {
+
+  ```css
+  .card-image {
         width: auto;
         max-height: 35%;
     }
-  ```
+```
+<li>Use of content to select an image</li>
+
+```css
+  img {
+        content: url('../images/image-product-mobile.jpg');
+        border-top-left-radius: var(--content-radius);
+        border-top-right-radius: var(--content-radius);
+        border-bottom-left-radius: 0%;
+        width: 100%;
+  }
+```
+
 </ul>
+
+
 
 ### Continued development
 
@@ -70,12 +86,12 @@ I'd like to add styling to the button when a user clicks on it.
 
 ### Useful resources
 
-- [Example resource 1](https://stackoverflow.com/) - A developer's true friend when maneuvering code that just doesn't seem to work.
-- [Example resource 2](https://www.w3schools.com) - This site helped me apply various stylings on the page.
-- [Example resource 3](https://fontawesome.com) - This site assisted me with icon used on the page.
+- [Stackoverflow](https://stackoverflow.com/) - A developer's true friend when maneuvering code that just doesn't seem to work.
+- [W3 Schools](https://www.w3schools.com) - This site helped me apply various stylings on the page.
+- [Fontawesome](https://fontawesome.com) - This site assisted me with icon used on the page.
 
 ## Author
 
-- Frontend Mentor - [@codinci](https://www.frontendmentor.io/profile/codinci)
-- LinkedIn - [@David Mburu](https://www.linkedin.com/in/david-mburu-523059127/)
+- Frontend Mentor - [codinci](https://www.frontendmentor.io/profile/codinci)
+- LinkedIn - [David Mburu](https://www.linkedin.com/in/david-mburu-523059127/)
 
