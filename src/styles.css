@@ -172,7 +172,7 @@ i {
     .card-content {
       gap: 1em;
       padding: 1em;
-      max-width: auto;
+      width: auto;
       border-top-right-radius: 0%;
       border-bottom-left-radius: var(--content-radius);
       border-bottom-right-radius: var(--content-radius);
