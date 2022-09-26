@@ -14,6 +14,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
+- [Acknowledgements](#acknowlegments)
 
 
 
@@ -94,4 +95,7 @@ I'd like to add styling to the button when a user clicks on it.
 
 - Frontend Mentor - [codinci](https://www.frontendmentor.io/profile/codinci)
 - LinkedIn - [David Mburu](https://www.linkedin.com/in/david-mburu-523059127/)
+
+## Acknowlegments
+Frontend Mentor and individuals who commented on my submission on Frontend Mentor.
 
