@@ -25,6 +25,7 @@ html {
 
 body {
   background-color: var(--primary-color2);
+  color: var(--neutral-color2);
 }
 
 img {
@@ -86,8 +87,8 @@ i {
   justify-content: flex-start;
   align-items: flex-start;
   flex-wrap: wrap;
-  background-color: white;
-  gap: 2.5em;
+  background-color: var(--neutral-color3);
+  gap: 2em;
   padding: 2em;
   border-top-right-radius: var(--content-radius);
   border-bottom-right-radius: var(--content-radius);
@@ -103,7 +104,8 @@ i {
 .product-name {
   font-family: 'Fraunces', serif;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 3.5rem;
+  color: var(--neutral-color1);
 }
 
 .product-description {
@@ -136,6 +138,7 @@ i {
   font-size: 1.5rem;
   text-align: center;
   padding: 2em;
+  color: var(--neutral-color1);
 }
 
 .attribution a {
