@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Montserrat&display=swap');
 
 :root {
-  --primary-color1: hsl(158, 36%, 37%);
-  --primary-color2: hsl(30, 38%, 92%);
-  --neutral-color1: hsl(212, 21%, 14%);
-  --neutral-color2: hsl(228, 12%, 48%);
-  --neutral-color3: hsl(0, 0%, 100%);
+  /* colors */
+  --primary-dark-cyan: hsl(158, 36%, 37%);
+  --primary-cream: hsl(30, 38%, 92%);
+  --neutral-dark-blue: hsl(212, 21%, 14%);
+  --neutral-dark-grayish-blue: hsl(228, 12%, 48%);
+  --neutral-white: hsl(0, 0%, 100%);
+
+  /* border-radius */
   --content-radius: 1.5em;
 }
 
@@ -24,8 +27,8 @@ html {
 }
 
 body {
-  background-color: var(--primary-color2);
-  color: var(--neutral-color2);
+  background-color: var(--primary-cream);
+  color: var(--neutral-dark-grayish-blue);
 }
 
 img {
@@ -43,10 +46,10 @@ button {
   padding: .5em;
   width: 100%;
   border-radius: .5em;
-  background-color: var(--primary-color1);
+  background-color: var(--primary-dark-cyan);
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  color: var(--neutral-color3);
+  color: var(--neutral-white);
 }
 
 button:hover {
@@ -55,7 +58,7 @@ button:hover {
 
 i {
   padding: 1em;
-  color: var(--neutral-color3);
+  color: var(--neutral-white);
 }
 
 /* class selectors */
@@ -87,7 +90,7 @@ i {
   justify-content: flex-start;
   align-items: flex-start;
   flex-wrap: wrap;
-  background-color: var(--neutral-color3);
+  background-color: var(--neutral-white);
   gap: 2em;
   padding: 2em;
   border-top-right-radius: var(--content-radius);
@@ -105,7 +108,7 @@ i {
   font-family: 'Fraunces', serif;
   font-weight: 700;
   font-size: 3.5rem;
-  color: var(--neutral-color1);
+  color: var(--neutral-dark-blue);
 }
 
 .product-description {
@@ -125,7 +128,7 @@ i {
   font-size: 2.5rem;
   font-weight: 700;
   padding-right: .5em;
-  color: var(--primary-color1) ;
+  color: var(--primary-dark-cyan) ;
 }
 
 .previous-price {
@@ -138,7 +141,7 @@ i {
   font-size: 1.5rem;
   text-align: center;
   padding: 2em;
-  color: var(--neutral-color1);
+  color: var(--neutral-dark-blue);
 }
 
 .attribution a {
