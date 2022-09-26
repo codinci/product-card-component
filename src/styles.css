@@ -147,7 +147,7 @@ i {
 
 /* responsive design */
 
-@media screen and (max-width: 550px ) {
+@media screen and (max-width: 625px ) {
 
   img {
       border-top-left-radius: var(--content-radius);
