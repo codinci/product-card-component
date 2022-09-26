@@ -28,7 +28,6 @@ body {
 }
 
 img {
-  content: url('../images/image-product-desktop.jpg');
   max-height: 100%;
   border-top-left-radius: var(--content-radius);
   border-bottom-left-radius: var(--content-radius);
@@ -60,10 +59,11 @@ i {
 
 /* class selectors */
 
-.container {
+.main {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
 }
 
 .card {
@@ -71,7 +71,7 @@ i {
   justify-content: center;
   width: 600px;
   height: 450px;
-  margin: 2.5em;
+  margin: 3.5em auto;
 }
 
 
@@ -147,7 +147,6 @@ i {
 @media screen and (max-width: 550px ) {
 
   img {
-      content: url('../images/image-product-mobile.jpg');
       border-top-left-radius: var(--content-radius);
       border-top-right-radius: var(--content-radius);
       border-bottom-left-radius: 0%;
@@ -158,8 +157,8 @@ i {
       align-items: center;
       flex-direction: column;
       width: 250px;
-      height: 100vh;
-      margin: 2em;
+      min-height: 100vh;
+      margin: 2em auto;
     }
 
     .card-image {
