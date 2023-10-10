@@ -37,9 +37,6 @@ img {
   border-bottom-left-radius: var(--content-radius);
 }
 
-h1 {
-  font-size: 1.5rem;
-}
 
 span {
   font-family: 'Fraunces', serif;
@@ -143,7 +140,9 @@ i {
 
 .attribution {
   font-size: 1.5rem;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 2em;
   color: var(--neutral-dark-blue);
 }
