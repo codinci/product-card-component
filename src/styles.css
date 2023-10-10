@@ -139,7 +139,7 @@ i {
 }
 
 .attribution {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -149,6 +149,7 @@ i {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+  text-decoration: none;
 }
 
 /* responsive design */
