@@ -37,6 +37,10 @@ img {
   border-bottom-left-radius: var(--content-radius);
 }
 
+h1 {
+  font-size: 1.5rem;
+}
+
 span {
   font-family: 'Fraunces', serif;
   font-weight: 700;
